@@ -21,7 +21,7 @@ struct App<'a> {
 impl<'a> App<'a> {
     fn new() -> App<'a> {
         App {
-            titles: vec!["Tab0", "Tab1", "Tab2", "Tab3"],
+            titles: vec!["RouterStat", "DestDist", "Dependencies"],
             index: 0,
         }
     }
